@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView2"
+        android:layout_width="117dp"
+        android:layout_height="293dp"
+        android:src="@drawable/photo_profile"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-6dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="46dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="92dp"
+        android:text="1817"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="164dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="50dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="92dp"
+        android:text="1,1m"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="247dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="47dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="sans-serif"
+        android:text="1334"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="330dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="postingan"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pengikut"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mengikuti"
+        tools:layout_editor_absoluteX="322dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="138dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Mengikuti"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:iconTint="#000000"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="137dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Kirim Pesan"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:iconTint="#000000"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="59dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#FFFFFF"
+        app:icon="@android:drawable/ic_menu_more"
+        app:iconTint="#000000"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deni Suryazi"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Photographer"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wedding Photographer"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dikuti oleh rizkyorama, destri_wulandari17, dan 4 lainnya"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@pictograph21"
+        android:textColor="#3F51B5"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#mediamansa"
+        android:textColor="#3F51B5"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lihat Terjemahan..."
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
